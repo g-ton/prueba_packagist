@@ -1,0 +1,20 @@
+{
+    "name": "pruebapackagist/hello-world",
+    "description": "Ou yeah My first composer project here",
+    "type": "Example",
+    "authors": [
+        {
+            "name": "J. Damián",
+            "email": "bionik_gotik@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
